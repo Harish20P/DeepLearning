@@ -12,6 +12,9 @@ This project is a web application built with Streamlit for processing and classi
 - TensorFlow
 - OpenPyXL
 - ucimlrepo
+- pickle
+- joblib
+
 
 ## Setup
 
@@ -21,3 +24,4 @@ This project is a web application built with Streamlit for processing and classi
 4. Install the required packages:
    ```bash
    pip install -r requirements.txt# DeepLearningAssment
+# DeepLearning
