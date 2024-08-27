@@ -2,9 +2,9 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('models/model.pkl', 'rb'))
-scaler = pickle.load(open('models/scaler.pkl', 'rb'))
-label_encoder = pickle.load(open('models/label.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
+label_encoder = pickle.load(open('label.pkl', 'rb'))
 
 def generate_random_features():
     """Generate random features for the model within specified min and max values."""
