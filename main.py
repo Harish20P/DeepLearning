@@ -1,10 +1,10 @@
 import streamlit as st
 import numpy as np
-import pickle
+import joblib
 
-model = pickle.load(open('models/model.pkl', 'rb'))
-scaler = pickle.load(open('models/scaler.pkl', 'rb'))
-label_encoder = pickle.load(open('models/label.pkl', 'rb'))
+model = model.load(open('/notebooks/model.h5', 'rb'))
+scaler = joblib.load(open('/notebooks/model.h5', 'rb'))
+label_encoder = joblib.load(open('/notebooks/model.h5', 'rb'))
 
 def generate_random_features():
     """Generate random features for the model within specified min and max values."""
