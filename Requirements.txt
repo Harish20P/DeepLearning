@@ -1,0 +1,8 @@
+streamlit==1.37.1
+pandas
+numpy
+scikit-learn
+tensorflow>=2.15.0
+openpyxl
+joblib
+pickle
