@@ -4,7 +4,7 @@ numpy
 scikit-learn==1.5.1
 tensorflow>=2.15.0
 openpyxl
-joblib
+pickle-mixin
 scipy  
 h5py
 keras==3.5.0
