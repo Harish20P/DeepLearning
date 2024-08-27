@@ -1,9 +1,10 @@
 streamlit==1.37.1
 pandas
 numpy
-keras
-scikit-learn
+scikit-learn==1.5.1
 tensorflow>=2.15.0
 openpyxl
 joblib
-pickle
+scipy  
+h5py
+keras==3.5.0
